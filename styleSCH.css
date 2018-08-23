@@ -1,0 +1,479 @@
+/* to jest wyßrodkowanie i marginesy, definicja dla html wynika z wymagañ niektórych wersji Opery */
+html {
+	margin: 0;
+	padding: 0;
+}
+body {
+	max-width: 1400px;
+	margin: 0;
+	height:100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+	text-align: center;
+	
+	font-family: 'Roboto Mono', monospace, sans-serif;
+	font-weight:400;
+	
+	
+	background: #FFF;
+	/*
+	background: #FFF url(obr_sch/body_tlo2.png) repeat fixed;
+	*/
+	color: #333333
+}
+
+h1,h2,h3,h4,h5,h6{font-weight:500;line-height:1;margin-bottom:1rem;margin-top:1rem;}
+
+
+p {/*text-indent: 1.8em;*/
+font-size: 0.9 em;
+margin-top: 0;
+margin-bottom: 0;
+}
+
+
+hr {border: none; height: 0px; width: 100%; max-width:1400px; background-color: e6e6e6; color: e6e6e6; padding: 0; margin: 0; 
+margin-left: auto;margin-right:auto;
+}
+
+
+
+
+#blokowane_menu{position: absolute; position: fixed; top:0; background-color: #424242; width:100%; max-width: 1400px;z-index: 1}
+#blok_menu-logotyp{position: absolute; left: 0;top:0.3em ; background-image: url(obr_sch/logotyp_bi.png);
+					background-repeat:no-repeat;background-position: center; background-size: auto 2em;
+					width:11em;height:92%;
+					padding-left:1.5em; padding-right:1.5em;
+					overflow: hidden;
+					}
+
+#do_daleja {position:absolute;right:0px;top:50%; transform: translateY(-50%) ;}
+#do_wstecza {position:absolute;left:0px;top:50%; transform: translateY(-50%) ;}
+#do_zamykacza1 {position:absolute;left: 0px;  top:50%;transform: translateY(-50%) ;padding: 5px;padding-left:10px;}
+#do_zamykacza2 {position:absolute;right: 0px; bottom: 0px;padding: 5px;}
+ 
+
+
+#galeria { position: relative; top:0px ;background-color:white; list-style-type:none;max-width:1000px; padding-bottom: 3em;}
+#galeria ul { margin: 0;
+	padding: 0;
+	}
+#galeria li {float:left;display: inline;}
+
+
+
+#gal_fota_01 {background-image: url(obr_sch/prace_01.jpg); background-position: center; background-size: cover;  height:250px;width:250px;}
+#gal_fota_02 {background-image: url(obr_sch/prace_02.jpg); background-position: center; background-size: cover;  height:250px;width:250px;}
+#gal_fota_03 {background-image: url(obr_sch/prace_03.png); background-position: center; background-size: cover;   height:250px;width:250px;}
+#gal_fota_04 {background-image: url(obr_sch/prace_04.jpg); background-position: center; background-size: cover;  height:250px;width:250px;}
+
+#gal_fota_05 {background-image: url(obr_sch/prace_05.jpg); background-position: center; background-size: cover;  height:250px;width:250px;}
+#gal_fota_06 {background-image: url(obr_sch/prace_06.jpg); background-position: center; background-size: cover;  height:250px;width:250px;}
+#gal_fota_07 {background-image: url(obr_sch/prace_07.jpg); background-position: center; background-size: cover;  height:250px;width:250px;}
+#gal_fota_08 {background-image: url(obr_sch/prace_08.jpg); background-position: center; background-size: cover;  height:250px;width:250px;}
+
+#galeria:after {
+  content:'';
+  display:block;
+  clear:both;
+}
+
+#gal_odsylacz_01 {position: relative; height:250px;width:250px; overflow: hidden;}
+
+#gal_odsylacz_01 a:link, a:visited{position: absolute; top: 0px; right: 0px;
+padding:0px;
+background-image:url(obr_sch/ods_foty_01a.png); background-repeat: no-repeat; background-position: right 0px;
+}
+#gal_odsylacz_01 a:hover, a:active{ background-image:url(obr_sch/ods_foty_01a.png); 
+ background-repeat: no-repeat;background-position: 0px 0px;}
+
+ #gal_odsylacz_02 {position: relative; height:250px;width:250px; overflow: hidden;}
+
+#gal_odsylacz_02 a:link, a:visited{position: absolute; top: 0px; right: 0px;
+padding:0px;
+background-image:url(obr_sch/ods_foty_02a.png); background-repeat: no-repeat; background-position: right 0px;
+}
+#gal_odsylacz_02 a:hover, a:active{ background-image:url(obr_sch/ods_foty_02a.png); 
+ background-repeat: no-repeat;background-position: 0px 0px;}
+
+   #gal_odsylacz_03 {position: relative; }
+
+#gal_odsylacz_03 a:link, a:visited{position: absolute; top: 0px; right: 0px;
+padding:0px;
+background-image:url(obr_sch/ods_foty_03a.png); background-repeat: no-repeat; background-position: right 0px; 
+}
+#gal_odsylacz_03 a:hover, a:active{ background-image:url(obr_sch/ods_foty_03a.png); 
+ background-repeat: no-repeat;background-position: 0px 0px;}
+
+ 
+  #gal_odsylacz_04 {position: relative; height:250px;width:250px; overflow: hidden;}
+
+#gal_odsylacz_04 a:link, a:visited{position: absolute; top: 0px; right: 0px;
+padding:0px;
+background-image:url(obr_sch/ods_foty_04a.png); background-repeat: no-repeat; background-position: right 0px;
+}
+#gal_odsylacz_04 a:hover, a:active{ background-image:url(obr_sch/ods_foty_04a.png); 
+ background-repeat: no-repeat;background-position: 0px 0px;}
+
+ 
+   #gal_odsylacz_05 {position: relative; height:250px;width:250px; overflow: hidden;}
+
+#gal_odsylacz_05 a:link, a:visited{position: absolute; top: 0px; right: 0px;
+padding:0px;
+background-image:url(obr_sch/ods_foty_05a.png); background-repeat: no-repeat; background-position: right 0px;
+}
+#gal_odsylacz_05 a:hover, a:active{ background-image:url(obr_sch/ods_foty_05a.png); 
+ background-repeat: no-repeat;background-position: 0px 0px;}
+
+ 
+  #gal_odsylacz_06 {position: relative; height:250px;width:250px; overflow: hidden;}
+
+#gal_odsylacz_06 a:link, a:visited{position: absolute; top: 0px; right: 0px;
+padding:0px;
+background-image:url(obr_sch/ods_foty_06a.png); background-repeat: no-repeat; background-position: right 0px;
+}
+#gal_odsylacz_06 a:hover, a:active{ background-image:url(obr_sch/ods_foty_06a.png); 
+ background-repeat: no-repeat;background-position: 0px 0px;}
+
+ 
+  #gal_odsylacz_07 {position: relative; height:250px;width:250px; overflow: hidden;}
+
+#gal_odsylacz_07 a:link, a:visited{position: absolute; top: 0px; right: 0px;
+padding:0px;
+background-image:url(obr_sch/ods_foty_07a.png); background-repeat: no-repeat; background-position: right 0px;
+}
+#gal_odsylacz_07 a:hover, a:active{ background-image:url(obr_sch/ods_foty_07a.png); 
+ background-repeat: no-repeat;background-position: 0px 0px;}
+ 
+ 
+  #gal_odsylacz_08 {position: relative; height:250px;width:250px; overflow: hidden;} 
+  
+#gal_odsylacz_08 a:link, a:visited{position: absolute; top: 0px; right: 0px;
+padding:0px;
+background-image:url(obr_sch/ods_foty_08a.png); background-repeat: no-repeat; background-position: right 0px;
+}
+#gal_odsylacz_08 a:hover, a:active{ background-image:url(obr_sch/ods_foty_08a.png); 
+ background-repeat: no-repeat;background-position: 0px 0px;}
+
+ 
+
+								
+#mat_wprow {width:85%; min-height: 150px;margin-top: 4px;margin-bottom:4px; text-align: left}
+
+
+#mat_obejma_mater01 {position:relative;width:85%;
+height:auto;
+padding-bottom:2.5em;
+margin-top: 4px;margin-bottom:4px;}
+
+
+#mat_obejma_mater01:after {
+  content:'';
+  display:block;
+  clear:both;}
+  
+#mat_obejma_mater02 {position:relative;width:85%;
+height:auto;
+padding-bottom:2.5em;
+margin-top: 4px;margin-bottom:4px;}
+
+
+#mat_obejma_mater02:after {
+  content:'';
+  display:block;
+  clear:both;}
+
+#mat_obejma_mater03 {position:relative;width:85%;
+height:auto;
+padding-bottom:2.5em;
+margin-top: 4px;margin-bottom:4px;}
+
+
+#mat_obejma_mater03:after {
+  content:'';
+  display:block;
+  clear:both;}
+
+#mat_obejma_mater04 {position:relative;width:85%;
+height:auto;
+padding-bottom:2.5em;
+margin-top: 4px;margin-bottom:4px;}
+
+
+#mat_obejma_mater04:after {
+  content:'';
+  display:block;
+  clear:both;}
+
+#mat_obejma_mater05 {position:relative;width:85%;
+height:auto;
+padding-bottom:2.5em;
+margin-top: 4px;margin-bottom:4px;}
+
+
+#mat_obejma_mater05:after {
+  content:'';
+  display:block;
+  clear:both;}  
+  
+  #mat_obejma_mater06 {position:relative;width:85%;
+height:auto;
+padding-bottom:2.5em;
+margin-top: 4px;margin-bottom:4px;}
+
+
+#mat_obejma_mater06:after {
+  content:'';
+  display:block;
+  clear:both;}  
+  
+  #mat_obejma_mater07 {position:relative;width:85%;
+height:auto;
+padding-bottom:2.5em;
+margin-top: 4px;margin-bottom:4px;}
+
+
+#mat_obejma_mater07:after {
+  content:'';
+  display:block;
+  clear:both;}  
+  
+  #mat_obejma_mater08 {position:relative;width:85%;
+height:auto;
+padding-bottom:2.5em;
+margin-top: 4px;margin-bottom:4px;}
+
+
+#mat_obejma_mater08:after {
+  content:'';
+  display:block;
+  clear:both;}  
+  
+  #mat_obejma_mater09 {position:relative;width:85%;
+height:auto;
+padding-bottom:2.5em;
+margin-top: 4px;margin-bottom:4px;}
+
+
+#mat_obejma_mater09:after {
+  content:'';
+  display:block;
+  clear:both;}  
+								
+								
+								
+								
+								
+
+#nagl_do_prac {position: relative;padding-top: 2em;padding-bottom: 6%}
+
+#nawigacja {
+	font-size: 1.2em;
+	padding-bottom: 0.8em;
+	margin-left:  11em;
+	margin-right: 11em;
+	}
+
+	
+#nawigacja ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	padding-top: 0.6em;
+}
+
+#nawigacja li {
+	display: inline;
+	margin-left:  1em;
+	margin-right: 1em;
+}
+#nawigacja  a:link , a:visited{text-decoration: none; color: #e1eafd;  background: none}
+#nawigacja  a:hover {text-decoration: none; color: white;  background: none}
+#nawigacja  a:active {text-decoration: none; color: #576862; background: none}
+
+
+#placek0 {position:relative;
+	
+	width:100%; max-width: 1400px;height:102vh;
+	padding-bottom:10px;
+}
+
+#placek_ramkotlo { position:absolute; top:5em; left: 50%; transform: translateX(-50%);width:85%; min-width: 800px; 
+
+padding-top: 0.7em;
+padding-bottom:0.7em;
+}
+
+#placek {position:relative;
+background-color: #e1e1e1;
+padding: 1em;
+padding-top: 2em;
+padding-bottom: 3em;
+height: 70%;
+max-height: 1100px;
+
+	 
+	width:93%;
+       
+        font-size:1em;
+		text-align: left;
+      }
+
+      #placek:after {
+        content:'';
+        display:block;
+        clear:both;
+      }
+/*
+	  border: 1px solid red;
+*/	  
+      #plac_dziecko1 {position:relative;
+	   background-repeat: no-repeat;background-size: auto 100%; background-position: center; 
+        float:left;
+		height: 350px;
+        width:700px;
+		
+		padding:10px; padding-bottom: 30px;
+		margin-bottom: 30px;
+        
+      }
+
+      #plac_dziecko2 {
+        float:left;
+        width:50%;
+		max-width:300px;
+		margin-left:30px;
+		padding-left:40px;
+        
+      }
+	  #plac_dziecko3 {position:absolute; 
+	 
+	  right: 20px; bottom: 20px;
+        clear:both;
+		
+        
+      }
+ 
+ #placz {position:relative;
+       padding-top:5em;
+        
+        font-size:1.4em;
+		text-align: left;
+		
+      }
+
+      #placz:after {
+        content:'';
+        display:block;
+        clear:both;
+      }
+/*
+	  border: 0px solid red;
+*/	  
+      #placz_po1 {position:relative;
+	   
+       
+		margin-left:auto;margin-right:auto;
+        
+		width:60%; text-align: center;display: inline-block;
+		text-align: center;
+		padding:0px; padding-bottom: 0px;
+		padding-top:8em;
+        display: inline-block;
+      }
+
+      #placz_po2 {
+		 margin-left: 10%;
+        float:left;
+		
+        width:48%;
+		
+		
+        
+      }
+	  #placz_po3 {
+		 margin-right: 10%;
+	  float:right;
+	 
+	  width: 48%;
+      }
+	  
+	 
+#podpis {position:relative; left:24px;bottom: 20px;font-family:'Nothing You Could Do', cursive;font-size: 1.5em;
+transform:rotate(-5deg); -webkit-transform:rotate(-5deg); 
+-moz-transform:rotate(-5deg); -o-transform:rotate(-5deg); width: 220px;
+
+}
+ 
+#termtekst {font-size:2.1em;}
+#tlo_dla_menu_1 { background-image: url(obr_sch/tlo_101a.jpg); background-position: center 2.6em;background-size: auto 100% ;
+ background-repeat:no-repeat; background-attachment:fixed;height:1000px; width:100%; margin-left:auto; margin-right:auto;}
+
+#tlo_m1_logotyp {position:relative; top: 30%;background-image: url(obr_sch/logotyp_ikona_tymczsowa.png); background-repeat: no-repeat;background-size: 100px; 
+background-position: center ; 
+								height:250px; width:60%;
+								 margin-left:auto; margin-right:auto;
+								
+								}
+
+
+
+#zaw_menu_1 {position:relative;background-image: url(obr_sch/tlo_102a.jpg); background-repeat: repeat;background-size: 5%; height: 100vh; max-height: 1200px; width:100%; margin-left:auto; margin-right:auto; }
+#zaw_menu_2 {position:relative; background-image: url(obr_sch/tlo_102a.jpg); background-repeat: repeat;background-size: 5%;color: #FFF;min-height:100vh;padding-bottom: 4em;}
+
+#zaw_menu_4 {background-color: white;position: relative;min-height:100vh}
+
+#zaw_menu_6 {position:relative; background-image: url(obr_sch/tlo_102.jpg);background-attachment: fixed;background-size: 1% ; background-repeat: repeat;
+padding-top:4em;padding-bottom:5em; 
+ background-repeat: repeat; min-height: 100vh; width:100%; color: #e1eafd;}
+
+#zaw_menu_7 {background-image: url(obr_sch/tlo_107a.jpg);background-attachment: fixed; background-repeat: repeat;color: #FFF;min-height:100vh}
+
+
+.bgnd 
+{   background-attachment: fixed;
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: 74vh;
+    max-height: 1200px;
+    min-height: 200px;
+}
+
+header + .bgnd {
+    height: 86vh;
+}
+.bgnd-1 {
+    background-image: url(obr_sch/tlo_11.jpg);}
+.bgnd-2 {  background-image: url(obr_sch/tlo_103.jpg);	}
+.bgnd-3 { background-image: url(obr_sch/tlo_33.jpg);  }
+ 
+ .bgndggg 
+{   background-attachment: fixed;
+    background-position: 50% 0;
+    background-repeat: repeat;
+    
+    max-height: 1200px;
+    min-height: 200px;
+}
+ 
+.bialy_tekst { color: white;}
+.centrowanie {margin-left: auto; margin-right:auto;}
+.container{margin:0 auto;max-width:60rem;width:96%;*zoom:1}
+.dogalerii{height:180px;width:180px}
+.mat_cechy {  width:70%; min-width:200px;text-align:left;float:left; padding-left: 35px;}
+.mat_nazwa {  width:300px;float:left;}
+.nagl_galerii { line-height:1;margin-top:0;}
+.poz_menu{padding-top: 4.6em;width:100%}
+.padd-podstr-galerii {padding: 10%}
+.text-center{text-align:center}
+.text-left{text-align:left}
+.wlinii {display: inline;}
+.wys_cieciaigiecia{height:2em}
+.zawijacz{display:table;height:100%;width:100%}
+.zaw_kontener{display:table-cell;vertical-align:middle;}
+/*
+.wys_okna1{height:auto}
+.wys_okna2{height:100vh}
+*/

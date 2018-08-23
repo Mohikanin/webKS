@@ -1,0 +1,104 @@
+<body>
+	<header>
+		<div class="container clearfix">
+			<a href="http://webmastah.pl" class="logo"><img src="http://webmastah.pl/img/logo_website.png" alt="webMASTAH"></a>
+			<a href="http://webmastah.pl/prosty-efekt-parallax" class="right"><i class="fa fa-long-arrow-left"></i> Powrót do artyku³u</a>
+		</div>
+	</header>
+	<section class="bgnd bgnd-1 js-parallax-bg" style="background-position: 50% 0px;">
+		<div class="va-wrapper">
+			<div class="va-container">
+				<div class="container text-center">
+					<h1>Simple parallax background</h1>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="content">
+		<div class="container">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vel pellentesque tellus. Vestibulum semper, enim non ornare porta, lacus nunc dictum sem, mattis iaculis erat sem eget mauris. Nunc nec neque pellentesque nunc placerat vulputate. In at mattis est, et convallis arcu. In vel leo non enim porta lacinia. Vestibulum condimentum nunc purus, ut consequat lorem eleifend sed. Aliquam erat volutpat.</p>
+			<p>Donec feugiat in diam eu feugiat. Quisque in gravida quam, in laoreet tellus. Cras posuere ex ac mattis consequat. Nunc scelerisque ornare lacus ut pellentesque. Nullam vel facilisis erat. Pellentesque lobortis dolor vitae tincidunt congue. Mauris nec efficitur mi.</p>
+			<p>Donec facilisis ex non lorem vehicula tincidunt. Maecenas commodo purus at ante eleifend ullamcorper. Nulla sed est pretium, luctus sem quis, ornare massa. Aliquam a urna interdum, iaculis lorem non, semper nibh. Aliquam mauris mauris, porttitor eu porta vitae, efficitur vel augue. Phasellus pellentesque blandit enim et luctus. Nunc nisl diam, cursus eu placerat sit amet, porta a arcu. Mauris sodales nulla nec urna commodo, nec rutrum diam bibendum. Mauris id metus id mi faucibus rutrum eu in felis. Ut mollis tincidunt erat, fermentum finibus arcu. Pellentesque in placerat turpis.</p>
+			<p>Phasellus ut diam a ligula pharetra rhoncus. Integer sollicitudin, ipsum in convallis sollicitudin, justo nulla hendrerit mauris, eget finibus magna nisi ac nisl. Nulla eu odio ultricies, laoreet libero id, scelerisque dui. Pellentesque justo tellus, varius sit amet leo eu, pharetra aliquam lacus. In tempus orci id varius fringilla. Duis elit sapien, dapibus eget nulla ut, porttitor tempus enim. Nulla facilisi. Donec malesuada tristique ante a sagittis. Nullam tempus ligula eros, eget elementum erat dictum consequat. Fusce ornare ipsum ornare lacus pharetra, quis auctor urna finibus. Duis a purus mollis, auctor velit sit amet, rutrum mi. Nulla sed purus commodo, dictum tellus non, faucibus elit. Aliquam erat volutpat. Proin ac porttitor ligula sodales a.</p>
+			<p>Mauris fringilla vel metus quis scelerisque. Vivamus nisi libero, consequat sit amet ipsum a, efficitur finibus massa. In ut euismod lacus. Sed id mattis nisi. Morbi euismod ligula id diam pharetra dapibus. Integer quam risus, pharetra nec arcu ut, egestas tempus magna. In semper finibus metus, in laoreet quam pharetra in. Nullam in mi mauris. Phasellus suscipit quam eu massa volutpat convallis. Nam sed consectetur metus. Vestibulum commodo eros ut augue posuere bibendum.</p>
+			<p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam a lorem vel enim scelerisque iaculis. Donec consectetur suscipit semper. Curabitur iaculis facilisis nisl, in sollicitudin dui porttitor ut. Fusce erat diam, malesuada nec neque quis, auctor congue purus. Ut posuere molestie enim, quis eleifend orci. Sed iaculis vehicula viverra. Proin sollicitudin mauris velit, vel ultricies turpis gravida vitae. Duis in magna at diam congue ultrices. Duis malesuada elit ut leo sollicitudin, vel placerat urna ultricies. Vestibulum pellentesque scelerisque dui, a molestie orci suscipit id. In hac habitasse platea dictumst. Maecenas tempor mi ex, et rhoncus lorem ornare sed. Curabitur sagittis tellus dolor, vitae semper eros euismod eu. Morbi et ligula finibus, elementum diam porttitor, blandit nibh.</p>
+		</div>
+	</section>
+	<section class="bgnd bgnd-2 js-parallax-bg">
+		<div class="va-wrapper">
+			<div class="va-container">
+				<div class="container text-center">
+					<h1>Lorem ipsum dolor</h1>
+					<h2>Sed eget orci nec diam suscipit</h2>
+					<h3>Donec fermentum justo in quam aliquet</h3>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="content">
+		<div class="container">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vel pellentesque tellus. Vestibulum semper, enim non ornare porta, lacus nunc dictum sem, mattis iaculis erat sem eget mauris. Nunc nec neque pellentesque nunc placerat vulputate. In at mattis est, et convallis arcu. In vel leo non enim porta lacinia. Vestibulum condimentum nunc purus, ut consequat lorem eleifend sed. Aliquam erat volutpat.</p>
+			<p>Donec feugiat in diam eu feugiat. Quisque in gravida quam, in laoreet tellus. Cras posuere ex ac mattis consequat. Nunc scelerisque ornare lacus ut pellentesque. Nullam vel facilisis erat. Pellentesque lobortis dolor vitae tincidunt congue. Mauris nec efficitur mi.</p>
+			<p>Mauris fringilla vel metus quis scelerisque. Vivamus nisi libero, consequat sit amet ipsum a, efficitur finibus massa. In ut euismod lacus. Sed id mattis nisi. Morbi euismod ligula id diam pharetra dapibus. Integer quam risus, pharetra nec arcu ut, egestas tempus magna. In semper finibus metus, in laoreet quam pharetra in. Nullam in mi mauris. Phasellus suscipit quam eu massa volutpat convallis. Nam sed consectetur metus. Vestibulum commodo eros ut augue posuere bibendum.</p>
+		</div>
+	</section>
+	<section class="bgnd bgnd-3 js-parallax-bg">
+		<div class="va-wrapper">
+			<div class="va-container">
+				<div class="container text-center">
+					<h1>Lorem ipsum dolor</h1>
+					<h2>Sed eget orci nec diam suscipit</h2>
+					<h3>Donec fermentum justo in quam aliquet</h3>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="content">
+		<div class="container">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vel pellentesque tellus. Vestibulum semper, enim non ornare porta, lacus nunc dictum sem, mattis iaculis erat sem eget mauris. Nunc nec neque pellentesque nunc placerat vulputate. In at mattis est, et convallis arcu. In vel leo non enim porta lacinia. Vestibulum condimentum nunc purus, ut consequat lorem eleifend sed. Aliquam erat volutpat.</p>
+			<p>Donec facilisis ex non lorem vehicula tincidunt. Maecenas commodo purus at ante eleifend ullamcorper. Nulla sed est pretium, luctus sem quis, ornare massa. Aliquam a urna interdum, iaculis lorem non, semper nibh. Aliquam mauris mauris, porttitor eu porta vitae, efficitur vel augue. Phasellus pellentesque blandit enim et luctus. Nunc nisl diam, cursus eu placerat sit amet, porta a arcu. Mauris sodales nulla nec urna commodo, nec rutrum diam bibendum. Mauris id metus id mi faucibus rutrum eu in felis. Ut mollis tincidunt erat, fermentum finibus arcu. Pellentesque in placerat turpis.</p>
+			<p>Phasellus ut diam a ligula pharetra rhoncus. Integer sollicitudin, ipsum in convallis sollicitudin, justo nulla hendrerit mauris, eget finibus magna nisi ac nisl. Nulla eu odio ultricies, laoreet libero id, scelerisque dui. Pellentesque justo tellus, varius sit amet leo eu, pharetra aliquam lacus. In tempus orci id varius fringilla. Duis elit sapien, dapibus eget nulla ut, porttitor tempus enim. Nulla facilisi. Donec malesuada tristique ante a sagittis. Nullam tempus ligula eros, eget elementum erat dictum consequat. Fusce ornare ipsum ornare lacus pharetra, quis auctor urna finibus. Duis a purus mollis, auctor velit sit amet, rutrum mi. Nulla sed purus commodo, dictum tellus non, faucibus elit. Aliquam erat volutpat. Proin ac porttitor ligula sodales a.</p>
+			<p>Fusce id neque at nisi elementum consectetur non vitae lacus. Nam arcu elit, convallis mollis maximus non, blandit scelerisque urna. Nulla vel congue justo. Sed dolor diam, facilisis nec accumsan eget, maximus sed orci. In mauris elit, lacinia non risus non, ultricies accumsan velit. Quisque sit amet tellus vel arcu congue venenatis. Aliquam vel tincidunt ante. Nulla facilisi.</p>
+		</div>
+	</section>
+	<section class="bgnd bgnd-4 js-parallax-bg">
+		<div class="va-wrapper">
+			<div class="va-container">
+				<div class="container text-center">
+					<h1>Lorem ipsum dolor</h1>
+					<h2>Sed eget orci nec diam suscipit</h2>
+					<h3>Donec fermentum justo in quam aliquet</h3>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="content">
+		<div class="container">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vel pellentesque tellus. Vestibulum semper, enim non ornare porta, lacus nunc dictum sem, mattis iaculis erat sem eget mauris. Nunc nec neque pellentesque nunc placerat vulputate. In at mattis est, et convallis arcu. In vel leo non enim porta lacinia. Vestibulum condimentum nunc purus, ut consequat lorem eleifend sed. Aliquam erat volutpat.</p>
+			<p>Donec feugiat in diam eu feugiat. Quisque in gravida quam, in laoreet tellus. Cras posuere ex ac mattis consequat. Nunc scelerisque ornare lacus ut pellentesque. Nullam vel facilisis erat. Pellentesque lobortis dolor vitae tincidunt congue. Mauris nec efficitur mi.</p>
+			<p>Donec facilisis ex non lorem vehicula tincidunt. Maecenas commodo purus at ante eleifend ullamcorper. Nulla sed est pretium, luctus sem quis, ornare massa. Aliquam a urna interdum, iaculis lorem non, semper nibh. Aliquam mauris mauris, porttitor eu porta vitae, efficitur vel augue. Phasellus pellentesque blandit enim et luctus. Nunc nisl diam, cursus eu placerat sit amet, porta a arcu. Mauris sodales nulla nec urna commodo, nec rutrum diam bibendum. Mauris id metus id mi faucibus rutrum eu in felis. Ut mollis tincidunt erat, fermentum finibus arcu. Pellentesque in placerat turpis.</p>
+			<p>Phasellus ut diam a ligula pharetra rhoncus. Integer sollicitudin, ipsum in convallis sollicitudin, justo nulla hendrerit mauris, eget finibus magna nisi ac nisl. Nulla eu odio ultricies, laoreet libero id, scelerisque dui. Pellentesque justo tellus, varius sit amet leo eu, pharetra aliquam lacus. In tempus orci id varius fringilla. Duis elit sapien, dapibus eget nulla ut, porttitor tempus enim. Nulla facilisi. Donec malesuada tristique ante a sagittis. Nullam tempus ligula eros, eget elementum erat dictum consequat. Fusce ornare ipsum ornare lacus pharetra, quis auctor urna finibus. Duis a purus mollis, auctor velit sit amet, rutrum mi. Nulla sed purus commodo, dictum tellus non, faucibus elit. Aliquam erat volutpat. Proin ac porttitor ligula sodales a.</p>
+			<p>Suspendisse feugiat neque mauris, eu elementum mauris ultricies sit amet. Vestibulum condimentum eros in nisl lacinia viverra. Integer ligula lorem, porttitor et porta in, pellentesque vitae dui. Praesent tempus arcu ornare elit scelerisque, ac pellentesque enim placerat. Suspendisse sit amet mauris in purus gravida eleifend sit amet fermentum mi. Vestibulum vel leo nec neque lobortis luctus vitae eu augue. Morbi luctus dui ac sapien vehicula, vel fermentum massa porttitor. Aenean eros nunc, condimentum eget justo at, porttitor porta metus. Sed rhoncus bibendum orci, nec aliquam dolor blandit sed. Donec ultricies pulvinar mauris vel ultrices.</p>
+			<p>Nullam pretium turpis et mi ultrices hendrerit. Nulla bibendum nunc id quam pharetra, ut sodales mauris ornare. Phasellus placerat neque a erat vestibulum tempus. Fusce feugiat lacus eu dui lacinia pharetra. Sed lacus felis, elementum eu justo at, vestibulum fringilla nulla. Cras lacus quam, suscipit a malesuada quis, ullamcorper id massa. Curabitur commodo ullamcorper elit quis mattis.</p>
+		</div>
+	</section>
+	<footer>
+		<div class="container">
+			<ul class="inline">
+				<li><a href="http://webmastah.pl/prosty-efekt-parallax"><i class="fa fa-long-arrow-left"></i> Powrót do artyku³u</a></li>
+				<li>/</li>
+				<li>Autor: <a href="http://webmastah.pl/author/mck">mck</a></li>
+				<li>/</li>
+				<li>Zdjêcia: <a href="http://unsplash.com">Unsplash</a></li>
+			</ul>
+			<div>Wiêcej na <a href="http://webmastah.pl">webmastah.pl</a></div>
+		</div>
+	</footer>
+	<script src="js/gator.min.js"></script>
+	<script src="js/parallaxbg.js"></script>
+	<script>
+		ParallaxBG.init();
+	</script>
+
+
+</body>
